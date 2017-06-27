@@ -1,0 +1,38 @@
+/*
+*
+version: 1.0.0
+Author:NVB Phases
+*
+*/
+@import "compass/css3";
+
+// 1. Configuration and helpers
+@import 'abstracts/variables',
+         'abstracts/functions',
+         'abstracts/mixins';
+
+ // 2. Vendors
+// @import 'vendors/slick',
+//         'vendors/slick-theme';
+
+// 3. Base stuff
+@import 
+	'base/normalise',
+	'base/typography',
+	'base/helpers';
+
+// 4. Layouts
+@import 'layout/header',
+	'layout/layout',
+        'layout/navigation',
+        'layout/footer';
+// 5. Components
+@import 'components/generic',
+        'components/buttons',
+	'components/carousel';
+
+// 6. Page-specific styles
+@import 'pages/homepage';
+
+//7.Print 
+@import 'print';
