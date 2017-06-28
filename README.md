@@ -3,84 +3,55 @@ This is a starterkit to do the SASS coding using  [Compass](http://compass-style
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development purposes..
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Here are the things you needed for this setup to work
 
-```
-Give examples
-```
+A computer installed with Ruby , For windows machine, download  [Ruby here](https://rubyinstaller.org/) and install locally.
+Linux needs 'Ruby ready' and OSX have Ruby already installed.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Install 'compass' first
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+For windows machines
 
 ```
-until finished
+gem install compass
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+and for linux/osx
 
 ```
-Give an example
+sudo gem install compass
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
+## Compile the SASS files to CSS
+
+Download or clone the starter kit and compile using 'Compass' commands
+
+### For compile
+write this command in terminal
 
 ```
-Give an example
+Compass compile
 ```
 
-## Deployment
+### For watching each changes in files and then compile automatically
 
-Add additional notes about how to deploy this on a live system
 
-## Built With
+```
+Compass watch
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## additional
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Along with this project there provided a proper structuring of SASS files which is suitable for every frontend works.
+For further information about compass [Read it here](http://compass-style.org/help/documentation/command-line/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License
